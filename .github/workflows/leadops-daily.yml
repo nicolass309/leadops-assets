@@ -2,6 +2,12 @@ name: LeadOps AI Daily Publisher
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/leadops-daily.yml"
+      - "tools/**"
+      - "22-calendario-organico-30-dias.csv"
+      - "automation/trigger.txt"
   schedule:
     - cron: "30 12 * * *"
 
