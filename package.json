@@ -10,6 +10,7 @@
     "install:github": "node tools/install-github-automation.mjs"
   },
   "dependencies": {
+    "ffmpeg-static": "^5.2.0",
     "sharp": "^0.33.5"
   }
 }
