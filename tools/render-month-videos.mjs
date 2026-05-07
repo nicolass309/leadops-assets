@@ -3,6 +3,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
+import ffmpegPath from 'ffmpeg-static';
 
 const ROOT = process.cwd();
 const OUT_DIR = path.resolve(ROOT, 'assets/generated/month-01');
@@ -28,11 +29,12 @@ function videoPathFor(file) {
 async function main() {
   const manifest = JSON.parse(await fs.readFile(MANIFEST, 'utf8'));
   await fs.mkdir(VIDEO_DIR, { recursive: true });
+  const ffmpeg = ffmpegPath || 'ffmpeg';
 
   for (const asset of manifest.assets) {
     const input = path.resolve(ROOT, asset.file);
     const output = videoPathFor(asset.file);
-    await run('ffmpeg', [
+    await run(ffmpeg, [
       '-y',
       '-loop', '1',
       '-i', input,
