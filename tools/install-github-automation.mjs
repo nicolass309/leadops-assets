@@ -5,6 +5,9 @@ import fs from 'node:fs/promises';
 const files = [
   ['package.json', 'package.json'],
   ['22-calendario-organico-30-dias.csv', '22-calendario-organico-30-dias.csv'],
+  ['35-estrategia-tofu-mofu-bofu.md', '35-estrategia-tofu-mofu-bofu.md'],
+  ['47-estrategia-publicaciones-leadops-ai.md', '47-estrategia-publicaciones-leadops-ai.md'],
+  ['49-content-os-leadops-ai.md', '49-content-os-leadops-ai.md'],
   ['.github/workflows/leadops-autopublisher.yml', '.github/workflows/leadops-autopublisher.yml'],
   ['tools/generate-month-assets.mjs', 'tools/generate-month-assets.mjs'],
   ['tools/render-month-videos.mjs', 'tools/render-month-videos.mjs'],
