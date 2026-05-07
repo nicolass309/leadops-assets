@@ -231,6 +231,76 @@ Si solo genera likes:
 
 - no se prioriza.
 
+## Anti-slop rules
+
+El sistema no debe producir contenido que parezca:
+
+- IA generica,
+- agencia generica,
+- marketing motivacional,
+- SaaS hype,
+- contenido reciclado sin criterio.
+
+Evitar:
+
+- emojis,
+- hooks exagerados,
+- claims irreales,
+- visuales futuristas innecesarios,
+- renders 3D,
+- exceso de animaciones,
+- demasiados elementos visuales,
+- stock irrelevante,
+- frases motivacionales vacias.
+
+Priorizar:
+
+- claridad,
+- tension,
+- observaciones reales,
+- problemas operacionales,
+- visuales simples,
+- branding consistente,
+- sensacion de sistema real,
+- sensacion de software real,
+- sensacion de operacion comercial real.
+
+Regla central:
+
+> El contenido debe sentirse como una observacion interna de revenue operations, no como contenido generado por IA para engagement.
+
+## Content scoring engine
+
+Antes de publicar, el publicador evalua cada pieza en 10 criterios:
+
+1. Claridad del dolor.
+2. Rapidez de comprension.
+3. Fuerza del hook.
+4. Potencial de comentarios.
+5. Potencial de guardado.
+6. Potencial de DM.
+7. Claridad visual.
+8. Simplicidad visual.
+9. Relevancia para inmobiliarias.
+10. Coherencia con category creation.
+
+Rechaza contenido que:
+
+- requiera demasiado contexto,
+- tenga demasiado texto,
+- parezca generico,
+- parezca AI slop,
+- no tenga tension,
+- no tenga claridad operacional,
+- no tenga CTA claro,
+- no se entienda rapido.
+
+Scoring prioritario:
+
+- comentarios > likes,
+- DMs > views,
+- saves > reach.
+
 ## Promesa aprobada
 
 Usar:
