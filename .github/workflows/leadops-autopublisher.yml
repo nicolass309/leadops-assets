@@ -1,0 +1,64 @@
+name: LeadOps AI Autopublisher
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/leadops-autopublisher.yml"
+      - "tools/**"
+      - "22-calendario-organico-30-dias.csv"
+      - "automation/trigger.txt"
+  schedule:
+    - cron: "30 12 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leadops-ai-autopublisher-v2
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      GITHUB_TOKEN: ${{ github.token }}
+      GITHUB_REPO: ${{ github.repository }}
+      GITHUB_BRANCH: ${{ github.ref_name }}
+      LEADOPS_TIMEZONE: America/Santiago
+      LEADOPS_START_DATE: "2026-05-07"
+      LEADOPS_WINDOW_DAYS: "7"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate visual assets
+        run: npm run generate:assets
+
+      - name: Render videos
+        run: npm run render:videos
+
+      - name: Upload videos to public repo paths
+        run: node tools/github-upload-assets.mjs upload-dir --dir assets/generated/month-01/videos --prefix leadops/month-01/videos
+
+      - name: Schedule rolling content window in Buffer
+        run: npm run publish:daily
+
+      - name: Commit state and logs
+        run: |
+          git config user.name "leadops-ai-bot"
+          git config user.email "leadops-ai-bot@users.noreply.github.com"
+          git add automation/state automation/logs github-assets-manifest.json github-assets-manifest.csv assets/generated/month-01/manifest.json assets/generated/month-01/manifest.csv
+          git diff --cached --quiet || git commit -m "LeadOps daily publishing state"
+          git push
