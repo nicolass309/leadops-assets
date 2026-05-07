@@ -218,7 +218,7 @@ async function createPost(post) {
 function buildPosts(calendar) {
   const startDate = env('LEADOPS_START_DATE', '2026-05-07');
   const today = localDateString();
-  const windowDays = Number(env('LEADOPS_WINDOW_DAYS', '7'));
+  const windowDays = Number(env('LEADOPS_WINDOW_DAYS', '1'));
   const posts = [];
 
   for (let offset = 0; offset < windowDays; offset += 1) {
@@ -286,6 +286,10 @@ async function main() {
     } catch (error) {
       console.error(`[ERROR] ${key}: ${error.message}`);
       runRows.push([key, post.network, post.date, post.time, post.day, post.dueAt.toISOString(), 'error', '', post.videoUrl || '', error.message].map(csv).join(','));
+      if (error.message.includes('RATE_LIMIT_EXCEEDED') || error.message.includes('Too many requests')) {
+        console.error('[STOP] Buffer rate limit reached. Stopping this run to avoid burning more requests.');
+        break;
+      }
     }
   }
 
