@@ -29,7 +29,7 @@ jobs:
       GITHUB_BRANCH: ${{ github.ref_name }}
       LEADOPS_TIMEZONE: America/Santiago
       LEADOPS_START_DATE: "2026-05-07"
-      LEADOPS_WINDOW_DAYS: "7"
+      LEADOPS_WINDOW_DAYS: "1"
 
     steps:
       - name: Checkout
@@ -50,15 +50,19 @@ jobs:
         run: npm run render:videos
 
       - name: Upload videos to public repo paths
+        if: github.event_name != 'push'
         run: node tools/github-upload-assets.mjs upload-dir --dir assets/generated/month-01/videos --prefix leadops/month-01/videos
 
       - name: Schedule rolling content window in Buffer
+        if: github.event_name != 'push'
         run: npm run publish:daily
 
       - name: Commit state and logs
+        if: github.event_name != 'push'
         run: |
           git config user.name "leadops-ai-bot"
           git config user.email "leadops-ai-bot@users.noreply.github.com"
           git add automation/state automation/logs github-assets-manifest.json github-assets-manifest.csv assets/generated/month-01/manifest.json assets/generated/month-01/manifest.csv
           git diff --cached --quiet || git commit -m "LeadOps daily publishing state"
+          git pull --rebase origin "${GITHUB_BRANCH:-main}"
           git push
