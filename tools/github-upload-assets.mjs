@@ -81,39 +81,46 @@ async function uploadFile({ filePath, key }) {
   const repo = env('GITHUB_REPO');
   const branch = env('GITHUB_BRANCH', 'main');
   const content = await fs.readFile(filePath);
-  const sha = await existingSha({ repo, branch, key, token });
   const url = `https://api.github.com/repos/${repo}/contents/${encodeURIComponentPath(key)}`;
 
-  const body = {
-    message: `Upload LeadOps asset ${key}`,
-    content: content.toString('base64'),
-    branch,
-  };
-  if (sha) body.sha = sha;
+  for (let attempt = 1; attempt <= 4; attempt += 1) {
+    const sha = await existingSha({ repo, branch, key, token });
+    const body = {
+      message: `Upload LeadOps asset ${key}`,
+      content: content.toString('base64'),
+      branch,
+    };
+    if (sha) body.sha = sha;
 
-  const response = await fetch(url, {
-    method: 'PUT',
-    headers: {
-      Authorization: `Bearer ${token}`,
-      Accept: 'application/vnd.github+json',
-      'Content-Type': 'application/json',
-      'X-GitHub-Api-Version': '2022-11-28',
-      'User-Agent': 'leadops-ai-publisher',
-    },
-    body: JSON.stringify(body),
-  });
+    const response = await fetch(url, {
+      method: 'PUT',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+        'X-GitHub-Api-Version': '2022-11-28',
+        'User-Agent': 'leadops-ai-publisher',
+      },
+      body: JSON.stringify(body),
+    });
 
-  if (!response.ok) {
+    if (response.ok) {
+      return {
+        file: filePath.replaceAll('\\', '/'),
+        key,
+        publicUrl: rawUrl({ repo, branch, key }),
+        bytes: content.length,
+      };
+    }
+
     const text = await response.text();
+    if (response.status === 409 && attempt < 4) {
+      await new Promise((resolve) => setTimeout(resolve, 1000 * attempt));
+      continue;
+    }
+
     throw new Error(`GitHub upload failed for ${filePath}: HTTP ${response.status} ${text.slice(0, 500)}`);
   }
-
-  return {
-    file: filePath.replaceAll('\\', '/'),
-    key,
-    publicUrl: rawUrl({ repo, branch, key }),
-    bytes: content.length,
-  };
 }
 
 async function writeManifest(rows) {
