@@ -17,10 +17,10 @@ const channels = {
 };
 
 const hashtags = {
-  base: '#Inmobiliaria #VentasInmobiliarias #InteligenciaArtificial #Automatizacion #WhatsAppBusiness',
-  framework: '#Inmobiliaria #CRM #IAParaNegocios #VentasInmobiliarias #Automatizacion',
-  errores: '#MarketingInmobiliario #Automatizacion #CRM #InteligenciaArtificial #Ventas',
-  oferta: '#Inmobiliaria #Ventas #Automatizacion #CRM #IAParaNegocios',
+  base: '#Inmobiliaria #VentasInmobiliarias #CRM #WhatsAppBusiness #RevenueOps',
+  framework: '#Inmobiliaria #CRM #VentasInmobiliarias #RevenueOps #Automatizacion',
+  errores: '#MarketingInmobiliario #Automatizacion #CRM #Ventas #RevenueOps',
+  oferta: '#Inmobiliaria #Ventas #Automatizacion #CRM #RevenueOps',
 };
 
 function env(name, fallback = null) {
