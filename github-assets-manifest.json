@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-05-08T14:22:22.501Z",
+  "assets": [
+    {
+      "file": "assets/generated/month-01/videos/day-01-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-01-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-01-lead-leakage.mp4",
+      "bytes": 56704
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-02-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-02-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-02-lead-leakage.mp4",
+      "bytes": 55248
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-03-infraestructura-comercial.mp4",
+      "key": "leadops/month-01/videos/day-03-infraestructura-comercial.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-03-infraestructura-comercial.mp4",
+      "bytes": 60460
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-04-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-04-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-04-lead-leakage.mp4",
+      "bytes": 58607
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-05-tiempo-de-enfriamiento.mp4",
+      "key": "leadops/month-01/videos/day-05-tiempo-de-enfriamiento.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-05-tiempo-de-enfriamiento.mp4",
+      "bytes": 55942
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-06-caos-comercial.mp4",
+      "key": "leadops/month-01/videos/day-06-caos-comercial.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-06-caos-comercial.mp4",
+      "bytes": 65995
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-07-infraestructura-comercial.mp4",
+      "key": "leadops/month-01/videos/day-07-infraestructura-comercial.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-07-infraestructura-comercial.mp4",
+      "bytes": 62958
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-08-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-08-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-08-lead-leakage.mp4",
+      "bytes": 53184
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-09-proof-based.mp4",
+      "key": "leadops/month-01/videos/day-09-proof-based.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-09-proof-based.mp4",
+      "bytes": 60428
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-10-framework.mp4",
+      "key": "leadops/month-01/videos/day-10-framework.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-10-framework.mp4",
+      "bytes": 58068
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-11-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-11-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-11-lead-leakage.mp4",
+      "bytes": 53529
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-12-infraestructura-comercial.mp4",
+      "key": "leadops/month-01/videos/day-12-infraestructura-comercial.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-12-infraestructura-comercial.mp4",
+      "bytes": 54100
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-13-tiempo-de-enfriamiento.mp4",
+      "key": "leadops/month-01/videos/day-13-tiempo-de-enfriamiento.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-13-tiempo-de-enfriamiento.mp4",
+      "bytes": 60645
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-14-caos-comercial.mp4",
+      "key": "leadops/month-01/videos/day-14-caos-comercial.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-14-caos-comercial.mp4",
+      "bytes": 59282
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-15-fake-ui.mp4",
+      "key": "leadops/month-01/videos/day-15-fake-ui.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-15-fake-ui.mp4",
+      "bytes": 66481
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-16-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-16-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-16-lead-leakage.mp4",
+      "bytes": 57244
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-17-framework.mp4",
+      "key": "leadops/month-01/videos/day-17-framework.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-17-framework.mp4",
+      "bytes": 61194
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-18-infraestructura-comercial.mp4",
+      "key": "leadops/month-01/videos/day-18-infraestructura-comercial.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-18-infraestructura-comercial.mp4",
+      "bytes": 52232
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-19-proof-based.mp4",
+      "key": "leadops/month-01/videos/day-19-proof-based.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-19-proof-based.mp4",
+      "bytes": 61743
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-20-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-20-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-20-lead-leakage.mp4",
+      "bytes": 60115
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-21-caos-comercial.mp4",
+      "key": "leadops/month-01/videos/day-21-caos-comercial.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-21-caos-comercial.mp4",
+      "bytes": 65832
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-22-tiempo-de-enfriamiento.mp4",
+      "key": "leadops/month-01/videos/day-22-tiempo-de-enfriamiento.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-22-tiempo-de-enfriamiento.mp4",
+      "bytes": 62854
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-23-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-23-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-23-lead-leakage.mp4",
+      "bytes": 65665
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-24-framework.mp4",
+      "key": "leadops/month-01/videos/day-24-framework.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-24-framework.mp4",
+      "bytes": 59940
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-25-fake-ui.mp4",
+      "key": "leadops/month-01/videos/day-25-fake-ui.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-25-fake-ui.mp4",
+      "bytes": 66897
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-26-infraestructura-comercial.mp4",
+      "key": "leadops/month-01/videos/day-26-infraestructura-comercial.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-26-infraestructura-comercial.mp4",
+      "bytes": 56815
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-27-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-27-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-27-lead-leakage.mp4",
+      "bytes": 60228
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-28-proof-based.mp4",
+      "key": "leadops/month-01/videos/day-28-proof-based.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-28-proof-based.mp4",
+      "bytes": 58226
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-29-framework.mp4",
+      "key": "leadops/month-01/videos/day-29-framework.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-29-framework.mp4",
+      "bytes": 60420
+    },
+    {
+      "file": "assets/generated/month-01/videos/day-30-oferta.mp4",
+      "key": "leadops/month-01/videos/day-30-oferta.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-30-oferta.mp4",
+      "bytes": 59748
+    }
+  ]
+}
