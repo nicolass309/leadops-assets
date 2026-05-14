@@ -1,0 +1,4 @@
+key,network,date,time,day,due_at,status,post_id,asset,score,error
+"X|2026-05-14|12:20|day-8","X","2026-05-14","12:20","8","2026-05-14T16:20:00.000Z","error","","","46","Invalid post: Whoops, it looks like you've posted that one recently. Unfortunately, we're not able to post the same thing again so soon!"
+"TikTok|2026-05-14|16:30|day-8","TikTok","2026-05-14","16:30","8","2026-05-14T20:30:00.000Z","scheduled","6a05e44559f7cb6008ab0ae0","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-08-lead-leakage.mp4","46",""
+"Instagram|2026-05-14|18:30|day-8","Instagram","2026-05-14","18:30","8","2026-05-14T22:30:00.000Z","scheduled","6a05e446f05c8cc3602f1c92","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-08-lead-leakage.mp4","46",""
