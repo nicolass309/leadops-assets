@@ -51,7 +51,7 @@ jobs:
 
       - name: Upload videos to public repo paths
         if: github.event_name != 'push'
-        run: node tools/github-upload-assets.mjs upload-dir --dir assets/generated/month-01/videos --prefix leadops/month-01/videos
+        run: node tools/github-upload-assets.mjs upload-window --manifest assets/generated/month-01/manifest.json --prefix leadops/month-01/videos
 
       - name: Schedule rolling content window in Buffer
         if: github.event_name != 'push'
