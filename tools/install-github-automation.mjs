@@ -9,6 +9,7 @@ const files = [
   ['47-estrategia-publicaciones-leadops-ai.md', '47-estrategia-publicaciones-leadops-ai.md'],
   ['49-content-os-leadops-ai.md', '49-content-os-leadops-ai.md'],
   ['.github/workflows/leadops-autopublisher.yml', '.github/workflows/leadops-autopublisher.yml'],
+  ['.github/workflows/leadops-daily.yml', '.github/workflows/leadops-daily.yml'],
   ['tools/generate-month-assets.mjs', 'tools/generate-month-assets.mjs'],
   ['tools/render-month-videos.mjs', 'tools/render-month-videos.mjs'],
   ['tools/github-upload-assets.mjs', 'tools/github-upload-assets.mjs'],
