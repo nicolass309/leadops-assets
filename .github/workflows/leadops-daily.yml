@@ -1,15 +1,7 @@
-name: LeadOps AI Daily Publisher
+name: LeadOps AI Daily Publisher Deprecated
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - ".github/workflows/leadops-daily.yml"
-      - "tools/**"
-      - "22-calendario-organico-30-dias.csv"
-      - "automation/trigger.txt"
-  schedule:
-    - cron: "30 12 * * *"
 
 permissions:
   contents: write
@@ -29,7 +21,7 @@ jobs:
       GITHUB_BRANCH: ${{ github.ref_name }}
       LEADOPS_TIMEZONE: America/Santiago
       LEADOPS_START_DATE: "2026-05-07"
-      LEADOPS_WINDOW_DAYS: "7"
+      LEADOPS_WINDOW_DAYS: "1"
 
     steps:
       - name: Checkout
@@ -50,7 +42,7 @@ jobs:
         run: npm run render:videos
 
       - name: Upload videos to public repo paths
-        run: node tools/github-upload-assets.mjs upload-dir --dir assets/generated/month-01/videos --prefix leadops/month-01/videos
+        run: node tools/github-upload-assets.mjs upload-window --manifest assets/generated/month-01/manifest.json --prefix leadops/month-01/videos
 
       - name: Schedule rolling content window in Buffer
         run: npm run publish:daily
