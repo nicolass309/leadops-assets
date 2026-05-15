@@ -296,6 +296,17 @@ async function createPost(post) {
   return result.post;
 }
 
+function isDuplicatePostError(error) {
+  const message = String(error?.message ?? '').toLowerCase();
+  return (
+    message.includes('whoops, it looks like') ||
+    message.includes('duplicate') ||
+    message.includes('already posted') ||
+    message.includes('same post') ||
+    message.includes('posted this')
+  );
+}
+
 function buildPosts(calendar) {
   const startDate = env('LEADOPS_START_DATE', '2026-05-07');
   const today = localDateString();
@@ -373,6 +384,15 @@ async function main() {
       newStateRows.push(row);
       runRows.push(row);
     } catch (error) {
+      if (isDuplicatePostError(error)) {
+        const message = error.message.slice(0, 500);
+        console.log(`[SKIP_DUPLICATE] ${key}: ${message}`);
+        const row = [key, post.network, post.date, post.time, post.day, post.dueAt.toISOString(), 'duplicate-skipped', '', post.videoUrl || '', quality.total, message].map(csv).join(',');
+        newStateRows.push(row);
+        runRows.push(row);
+        continue;
+      }
+
       console.error(`[ERROR] ${key}: ${error.message}`);
       runRows.push([key, post.network, post.date, post.time, post.day, post.dueAt.toISOString(), 'error', '', post.videoUrl || '', quality.total, error.message].map(csv).join(','));
       if (error.message.includes('RATE_LIMIT_EXCEEDED') || error.message.includes('Too many requests')) {
