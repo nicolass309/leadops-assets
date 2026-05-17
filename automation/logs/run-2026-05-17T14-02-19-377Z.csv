@@ -1,0 +1,4 @@
+key,network,date,time,day,due_at,status,post_id,asset,score,error
+"X|2026-05-17|12:20|day-11","X","2026-05-17","12:20","11","2026-05-17T16:20:00.000Z","scheduled","6a09ca6a8f418d3695673120","","46",""
+"TikTok|2026-05-17|16:30|day-11","TikTok","2026-05-17","16:30","11","2026-05-17T20:30:00.000Z","scheduled","6a09ca6ae9a56b849fdc0e62","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-11-lead-leakage.mp4","46",""
+"Instagram|2026-05-17|18:30|day-11","Instagram","2026-05-17","18:30","11","2026-05-17T22:30:00.000Z","scheduled","6a09ca6be9a56b849fdc0e89","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-11-lead-leakage.mp4","46",""
