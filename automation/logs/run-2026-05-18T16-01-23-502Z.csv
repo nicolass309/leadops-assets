@@ -1,0 +1,4 @@
+key,network,date,time,day,due_at,status,post_id,asset,score,error
+"X|2026-05-18|12:20|day-12","X","2026-05-18","12:20","12","2026-05-18T16:20:00.000Z","scheduled","6a0b37d27acd2bdbfff112af","","47",""
+"TikTok|2026-05-18|16:30|day-12","TikTok","2026-05-18","16:30","12","2026-05-18T20:30:00.000Z","scheduled","6a0b37d2c3b2374044ebc91a","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-12-infraestructura-comercial.mp4","47",""
+"Instagram|2026-05-18|18:30|day-12","Instagram","2026-05-18","18:30","12","2026-05-18T22:30:00.000Z","scheduled","6a0b37d37acd2bdbfff112df","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-12-infraestructura-comercial.mp4","47",""
