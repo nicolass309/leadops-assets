@@ -1,0 +1,4 @@
+key,network,date,time,day,due_at,status,post_id,asset,score,error
+"X|2026-05-19|12:20|day-13","X","2026-05-19","12:20","13","2026-05-19T16:20:00.000Z","scheduled","6a0c87e75ff16e96af093705","","48",""
+"TikTok|2026-05-19|16:30|day-13","TikTok","2026-05-19","16:30","13","2026-05-19T20:30:00.000Z","scheduled","6a0c87e73a31cb5c6b372373","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-13-tiempo-de-enfriamiento.mp4","48",""
+"Instagram|2026-05-19|18:30|day-13","Instagram","2026-05-19","18:30","13","2026-05-19T22:30:00.000Z","scheduled","6a0c87e73a31cb5c6b372396","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-13-tiempo-de-enfriamiento.mp4","48",""
