@@ -1,0 +1,4 @@
+key,network,date,time,day,due_at,status,post_id,asset,score,error
+"X|2026-05-20|12:20|day-14","X","2026-05-20","12:20","14","2026-05-20T16:20:00.000Z","scheduled","6a0ddb42653be0fe09e4a2f7","","43",""
+"TikTok|2026-05-20|16:30|day-14","TikTok","2026-05-20","16:30","14","2026-05-20T20:30:00.000Z","scheduled","6a0ddb437048b91867b538ca","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-14-caos-comercial.mp4","46",""
+"Instagram|2026-05-20|18:30|day-14","Instagram","2026-05-20","18:30","14","2026-05-20T22:30:00.000Z","scheduled","6a0ddb444d595f269589edcf","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-14-caos-comercial.mp4","46",""
