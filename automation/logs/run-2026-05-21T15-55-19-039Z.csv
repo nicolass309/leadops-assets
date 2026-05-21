@@ -1,0 +1,4 @@
+key,network,date,time,day,due_at,status,post_id,asset,score,error
+"X|2026-05-21|12:20|day-15","X","2026-05-21","12:20","15","2026-05-21T16:20:00.000Z","scheduled","6a0f2ae52d6e7b7d57219d22","","49",""
+"TikTok|2026-05-21|16:30|day-15","TikTok","2026-05-21","16:30","15","2026-05-21T20:30:00.000Z","scheduled","6a0f2ae62d6e7b7d57219d46","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-15-fake-ui.mp4","49",""
+"Instagram|2026-05-21|18:30|day-15","Instagram","2026-05-21","18:30","15","2026-05-21T22:30:00.000Z","scheduled","6a0f2ae6115f33f15e811616","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-15-fake-ui.mp4","49",""
