@@ -37,3 +37,6 @@ key,network,date,time,day,due_at,status,post_id,asset,score,error
 "X|2026-05-22|12:20|day-16","X","2026-05-22","12:20","16","2026-05-22T16:20:00.000Z","scheduled","6a10764ecc9ff193f8112ade","","46",""
 "TikTok|2026-05-22|16:30|day-16","TikTok","2026-05-22","16:30","16","2026-05-22T20:30:00.000Z","scheduled","6a10764f611cd1e6390f4c29","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-16-lead-leakage.mp4","46",""
 "Instagram|2026-05-22|18:30|day-16","Instagram","2026-05-22","18:30","16","2026-05-22T22:30:00.000Z","scheduled","6a10764f6bea9b626e24a5b5","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-16-lead-leakage.mp4","46",""
+"X|2026-05-23|12:20|day-17","X","2026-05-23","12:20","17","2026-05-23T16:20:00.000Z","scheduled","6a11b4accc9ff193f8152d92","","47",""
+"TikTok|2026-05-23|16:30|day-17","TikTok","2026-05-23","16:30","17","2026-05-23T20:30:00.000Z","scheduled","6a11b4ac0dc6571b69f20eab","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-17-framework.mp4","50",""
+"Instagram|2026-05-23|18:30|day-17","Instagram","2026-05-23","18:30","17","2026-05-23T22:30:00.000Z","scheduled","6a11b4ad189925716a3057d7","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-17-framework.mp4","50",""
