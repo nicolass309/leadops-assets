@@ -45,3 +45,4 @@ key,network,date,time,day,due_at,status,post_id,asset,score,error
 "Instagram|2026-05-24|18:30|day-18","Instagram","2026-05-24","18:30","18","2026-05-24T22:30:00.000Z","scheduled","6a130616cc9ff193f8196376","https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-18-infraestructura-comercial.mp4","47",""
 "X|2026-05-25|12:20|day-19","X","2026-05-25","12:20","19","2026-05-25T16:20:00.000Z","scheduled","6a146bdbf68ebd8f04cfe8bc","","48",""
 "X|2026-05-26|12:20|day-20","X","2026-05-26","12:20","20","2026-05-26T16:20:00.000Z","scheduled","6a15c724556f522d3ce05ca5","","46",""
+"X|2026-05-27|12:20|day-21","X","2026-05-27","12:20","21","2026-05-27T16:20:00.000Z","scheduled","6a1718e9984b73eda05a68c7","","49",""
