@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-05T14:14:18.296Z",
+  "generatedAt": "2026-07-06T15:58:31.827Z",
   "assets": [
     {
-      "file": "assets/generated/month-01/videos/day-30-oferta.mp4",
-      "key": "leadops/month-01/videos/day-30-oferta.mp4",
-      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-30-oferta.mp4",
-      "bytes": 59748,
+      "file": "assets/generated/month-01/videos/day-01-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-01-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-01-lead-leakage.mp4",
+      "bytes": 56704,
       "skipped": true
     }
   ]
