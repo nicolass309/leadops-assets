@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-08T14:45:50.779Z",
+  "generatedAt": "2026-07-09T15:39:57.018Z",
   "assets": [
     {
-      "file": "assets/generated/month-01/videos/day-03-infraestructura-comercial.mp4",
-      "key": "leadops/month-01/videos/day-03-infraestructura-comercial.mp4",
-      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-03-infraestructura-comercial.mp4",
-      "bytes": 60460,
+      "file": "assets/generated/month-01/videos/day-04-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-04-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-04-lead-leakage.mp4",
+      "bytes": 58607,
       "skipped": true
     }
   ]
