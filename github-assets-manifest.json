@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-15T14:17:37.738Z",
+  "generatedAt": "2026-07-16T14:29:54.705Z",
   "assets": [
     {
-      "file": "assets/generated/month-01/videos/day-10-framework.mp4",
-      "key": "leadops/month-01/videos/day-10-framework.mp4",
-      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-10-framework.mp4",
-      "bytes": 58068,
+      "file": "assets/generated/month-01/videos/day-11-lead-leakage.mp4",
+      "key": "leadops/month-01/videos/day-11-lead-leakage.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-11-lead-leakage.mp4",
+      "bytes": 53529,
       "skipped": true
     }
   ]
