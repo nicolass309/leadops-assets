@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-28T22:30:16.080Z",
+  "generatedAt": "2026-08-29T16:49:27.497Z",
   "assets": [
     {
-      "file": "assets/generated/month-01/videos/day-24-framework.mp4",
-      "key": "leadops/month-01/videos/day-24-framework.mp4",
-      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-24-framework.mp4",
-      "bytes": 59940,
+      "file": "assets/generated/month-01/videos/day-25-fake-ui.mp4",
+      "key": "leadops/month-01/videos/day-25-fake-ui.mp4",
+      "publicUrl": "https://raw.githubusercontent.com/nicolass309/leadops-assets/main/leadops/month-01/videos/day-25-fake-ui.mp4",
+      "bytes": 66897,
       "skipped": true
     }
   ]
